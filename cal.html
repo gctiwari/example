@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="./css.css">
+        <script src="./js.js"></script>
+    </head>
+    <body>
+       <h1  style="color: rgb(255, 0, 0); text-align: center;">CALCULATOR BY GYAN CHANDRA TIWARI</h1>
+        <table border="3" align="center">
+            <tr>
+               <td colspan="3"><input type="text" id="TEXTBOX"/></td>
+               <!-- clr() function will call clr to clear all value -->
+               <td><input type="button" value="c" onclick="empty()"/> </td>
+            </tr>
+            <tr>
+               <td><input type="button" value="1" onclick="add('1')"/> </td>
+               <td><input type="button" value="2" onclick="add('2')"/> </td>
+               <td><input type="button" value="3" onclick="add('3')"/> </td>
+               <td><input type="button" value="/" onclick="add('/')"/> </td>
+            </tr>
+            <tr>
+               <td><input type="button" value="4" onclick="add('4')"/> </td>
+               <td><input type="button" value="5" onclick="add('5')"/> </td>
+               <td><input type="button" value="6" onclick="add('6')"/> </td>
+               <td><input type="button" value="-" onclick="add('-')"/> </td>
+            </tr>
+            <tr>
+               <td><input type="button" value="7" onclick="add('7')"/> </td>
+               <td><input type="button" value="8" onclick="add('8')"/> </td>
+               <td><input type="button" value="9" onclick="add('9')"/> </td>
+               <td><input type="button" value="+" onclick="add('+')"/> </td>
+            </tr>
+            <tr>
+               <td><input type="button" value="0" onclick="add('0')"/> </td>
+               <td colspan="2"><input type="button" value="Enter" onclick="calcula()" onmouseover="hover(this)"/> </td>
+               <td><input type="button" value="*" onclick="add('*')"/> </td>
+            </tr>
+         </table>
+    </body>
+</html>
